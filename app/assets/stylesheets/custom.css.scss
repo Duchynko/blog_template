@@ -1,2 +1,103 @@
+$navbar-default-bg: #0a3b66;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|VT323');
+
+
+// Navigation bar
+
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#logo {
+  float: left;
+  font-family: 'VT323', monospace;
+  font-size: 28px;
+  color: #fcf1b3;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color:#ceb24e;
+  text-decoration:none;
+}
+
+.menu_button{
+  font-family: 'PT Sans', sans-serif;
+  color: #FFF;
+  font-size: 20px;
+}
+
+//Jumbotron at home.html with class:center. 
+
+.center .bg{
+  position: absolute;
+  z-index: -1;
+  //top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: asset-url("code2.png");
+  background-size: cover;
+  //height: 550px;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+}
+
+.center{
+  background: rgba(black, 0.5);
+  position: relative;
+  z-index: 5;
+  text-align: center; 
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.center h1{
+  font-family: 'VT323', monospace;
+}
+
+.btn-signup{
+  //@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+  @include button-variant(black, #fcf1b3, black);
+  font-family: 'VT323', monospace ;
+  text-transform: uppercase;
+  padding: 5px 15px 5px 15px;
+  font-size: 1.4em;
+  margin-top: 20px;
+  text-shadow: none;
+}
+
+//Footer 
+
+.footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+.footer:hover{
+  color: #222;
+}
+
+.footer small{
+  float: left;
+}
+
+.footer ul{
+  float: right;
+  list-style: none;
+}
+
+.footer ul li{
+  float:left;
+  margin-left: 15px;
+}
