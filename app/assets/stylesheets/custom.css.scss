@@ -15,7 +15,7 @@ $navbar-default-bg: #0a3b66;
 #logo {
   float: left;
   font-family: 'VT323', monospace;
-  font-size: 28px;
+  font-size: 32px;
   color: #fcf1b3;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -51,7 +51,7 @@ $navbar-default-bg: #0a3b66;
 }
 
 .center{
-  background: rgba(black, 0.5);
+  background: rgba(#0a3b66, 0.5);
   position: relative;
   z-index: 5;
   text-align: center; 
