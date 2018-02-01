@@ -71,10 +71,10 @@ $navbar-default-bg: #0a3b66;
 .btn-signup{
   //@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
   @include button-variant(black, #fcf1b3, black);
-  font-family: 'VT323', monospace ;
+  font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
   padding: 5px 15px 5px 15px;
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-top: 20px;
   text-shadow: none;
 }
