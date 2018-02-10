@@ -104,6 +104,17 @@ $navbar-default-bg: #0a3b66;
 
 //Show.html.erb
 
+.badge{
+  background-color: #fcf1b3;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input{
+  width: auto !important;
+}
+
 #show_title{
   font-size: 1.2em;
   font-style: italic;
